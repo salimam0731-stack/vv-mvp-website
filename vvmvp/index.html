@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ved Vignan Maha Vidya Peeth | The Art of Living</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <a class="logo" href="index.html" aria-label="The Art of Living home">
+                <img src="assets/art-of-living-logo.png" alt="The Art of Living">
+            </a>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.8 12 3l9 7.8v9.1a1 1 0 0 1-1 1h-5.5v-6.2h-5V21H4a1 1 0 0 1-1-1z"/></svg>Home</a></li>
+                    <li><a href="#campus-overview"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v18H5zM8 6h2v2H8zm6 0h2v2h-2zM8 11h2v2H8zm6 0h2v2h-2zM8 16h2v2H8zm6 0h2v2h-2z"/></svg>Ashrams</a></li>
+                    <li><a href="#initiatives"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14a2 2 0 0 1 2 2v15l-4-2-5 2-5-2-4 2V5a2 2 0 0 1 2-2zm2 4h10M7 11h10M7 15h6"/></svg>Programs</a></li>
+                    <li><a href="#contact"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 8.8c0 5-8.8 11-8.8 11s-8.8-6-8.8-11A4.8 4.8 0 0 1 12 6a4.8 4.8 0 0 1 8.8 2.8z"/></svg>Donate</a></li>
+                    <li><a href="#about"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 20v-1.5a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4V20m7-9a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm9-1a3 3 0 1 0-1-5.8M22 20v-1.5a4 4 0 0 0-3-3.9"/></svg>Volunteer</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle Menu" aria-expanded="false">&#9776;</button>
+        </div>
+    </header>
+
+    <!-- 2. Main Content -->
+    <main>
+        <!-- A. Hero Section -->
+        <section class="hero-simplified" aria-label="Advanced meditation programs">
+            <div class="hero-slideshow" aria-hidden="true">
+                <div class="hero-slide active" style="background-image: url('assets/slide-3.jpg');"></div>
+                <div class="hero-slide" style="background-image: url('assets/slide-2.png');"></div>
+                <div class="hero-slide" style="background-image: url('assets/slide-1.jpg');"></div>
+                <div class="hero-slide" style="background-image: url('assets/hero-campus.jpg');"></div>
+            </div>
+            <div class="container hero-content">
+                <p class="hero-eyebrow">Advanced Meditation Programs</p>
+                <h2>Let’s Get<br>Started</h2>
+                <p class="hero-description">Learn powerful breathing techniques, deep meditations, life skill tools and practical wisdom that are easy to apply in daily life to be sustainably happy.</p>
+                <div class="hero-actions">
+                    <a class="hero-button hero-button-primary" href="#campus-overview">Bangalore Ashram</a>
+                    <a class="hero-button hero-button-secondary" href="#campus-overview">Ashrams in India</a>
+                </div>
+            </div>
+            <span class="hero-pagination" aria-hidden="true"><span></span></span>
+        </section>
+
+        <!-- B. About Us -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-intro">
+                    <h3>About Ved Vignan Maha Vidya Peeth</h3>
+                    <p>Established in 1981, Ved Vignan Maha Vidya Peeth (VVMVP) is a public charitable trust under the aegis of The Art of Living. We are dedicated to transforming lives through education, empowerment, and enlightenment.</p>
+                </div>
+                <div class="about-pillars">
+                    <article class="about-card">
+                        <h4>Education Excellence</h4>
+                        <p>We provide underprivileged children with comprehensive free education, transportation, uniforms, books, and nutritious mid-day meals.</p>
+                    </article>
+                    <article class="about-card">
+                        <h4>Women Empowerment</h4>
+                        <p>Our skill development programs help women build self-reliance and achieve economic independence.</p>
+                    </article>
+                    <article class="about-card">
+                        <h4>Rural Development</h4>
+                        <p>We promote sustainable practices and help build essential infrastructure in rural communities.</p>
+                    </article>
+                    <article class="about-card">
+                        <h4>Vedic Research</h4>
+                        <p>We are committed to studying, preserving, and sharing the knowledge and wisdom of the Vedic tradition.</p>
+                    </article>
+                    <article class="about-card">
+                        <h4>Medical &amp; Social Research</h4>
+                        <p>We advance healthcare initiatives and social welfare programs for the betterment of communities.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- C. Key Initiatives (3-Column Grid) -->
+        <section id="initiatives" class="initiatives-section">
+            <div class="container">
+                <h3>Our Core Programs</h3>
+                <div class="grid-3">
+                    <div class="card">
+                        <img src="assets/hero-campus.jpg" alt="Gurukul Education">
+                        <h4>Sri Sri Gurukul</h4>
+                        <p>Preserving and promoting the authentic Vedic system of learning.</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/hero-campus.jpg" alt="Rural Projects">
+                        <h4>Rural Development</h4>
+                        <p>Sustainable initiatives empowering rural communities.</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/hero-campus.jpg" alt="Seva Activities">
+                        <h4>Social Responsibility</h4>
+                        <p>Engaging in diverse community service projects across India.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- D. Campus Highlight Section (Inspired by the Reference Image Panel) -->
+        <section id="campus-overview" class="campus-section">
+            <div class="container campus-grid">
+                <div class="campus-text">
+                    <h3>Visit Our Campus</h3>
+                    <p>Experience the serene environment of the Ved Vignan Maha Vidya Peeth.</p>
+                    <address>
+                        <p>21st Km, Kanakapura Road, Bengaluru,</p>
+                        <p>Karnataka - 560 082, India</p>
+                    </address>
+                </div>
+                <div class="campus-image">
+                    <img src="assets/hero-campus.jpg" alt="Campus View">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 3. Footer -->
+    <footer id="contact">
+        <div class="container footer-grid">
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#initiatives">Gurukul</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><strong>Phone:</strong> +91 90360 05022</p>
+                <p><strong>Email:</strong> queries@vvmvp.org</p>
+            </div>
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <!-- Basic icons -->
+                    <span>FB</span> <span>TW</span> <span>IG</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 VVMVP. Developed by (Your Team Name)</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
